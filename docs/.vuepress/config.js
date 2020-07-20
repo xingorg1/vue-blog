@@ -32,12 +32,15 @@ module.exports = {
             {
                 title: '前缀和与差分',
                 children: [
-                    {title: '前缀和算法', path: '/prefix-sum&difference/prefix-sum'},
-                    {title: '差分算法', path: '/prefix-sum&difference/difference'}
+                    { title: '前缀和算法', path: '/prefix-sum&difference/prefix-sum' },
+                    { title: '差分算法', path: '/prefix-sum&difference/difference' }
                 ]
             }
         ],
-        sidebarDepth: 0
+        sidebarDepth: 0,
+        // Git 仓库
+        repo: 'YmCoke/vue-blog', // 你的仓库
+        repoLabel: 'Github源码', // 导航栏上的文本
     },
     plugins: [
         '@vuepress/pwa', {
